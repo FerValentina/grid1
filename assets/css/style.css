@@ -10,8 +10,8 @@ body{
       "sidebar main"
       'footer footer'
     ;
-    grid-template-columns: 100px 1fr;
-    grid-template-rows: auto 1fr 100px;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: auto 1fr 150px;
     min-height: 100vh;
     text-align: center;
 }
@@ -19,4 +19,9 @@ nav{
     grid-area: navbar;
     background-color: rgb(27, 27, 116);
     color: white;
+}
+aside{
+    grid-area: sidebar;
+    background-color: gray;
+
 }
