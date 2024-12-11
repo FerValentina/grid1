@@ -19,6 +19,8 @@ nav{
     grid-area: navbar;
     background-color: rgb(27, 27, 116);
     color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 aside{
     grid-area: sidebar;
@@ -39,5 +41,7 @@ li{
 main{
     grid-area: main;
     background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
