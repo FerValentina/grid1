@@ -33,7 +33,7 @@ aside{
 ul{
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 li{
     margin: 1em;
@@ -44,4 +44,17 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
 
+}
+img{
+    width: 250px;
+    height: 280px;
+}
