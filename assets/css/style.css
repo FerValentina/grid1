@@ -23,7 +23,18 @@ nav{
 aside{
     grid-area: sidebar;
     background-color: rgb(220, 220, 220);
-
+    text-align: left;
+    padding-top: 1em;
+    /* padding-left: 1em; */
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    margin: 1em;
 }
 main{
     grid-area: main;
