@@ -11,7 +11,7 @@ body{
       'footer footer'
     ;
     grid-template-columns: 150px 1fr;
-    grid-template-rows: auto 1fr 150px;
+    grid-template-rows: auto 1fr 100px;
     min-height: 100vh;
     text-align: center;
 }
@@ -84,4 +84,19 @@ h3,p{
 img,h3,h4,p{
     padding-left: 10px;
     padding-right: 10px;
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    padding-top: 30px;
+    
+}
+span{
+    font-weight: lighter;
+    font-size: small;
+    padding: 0.5em;
+    color: gray;
 }
