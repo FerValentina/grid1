@@ -27,8 +27,13 @@ aside{
     background-color: rgb(220, 220, 220);
     text-align: left;
     padding-top: 1em;
+    
     /* padding-left: 1em; */
     
+}
+.categoria{
+    font-weight: bold;
+    font-size: large;
 }
 ul{
     list-style: none;
@@ -40,7 +45,7 @@ li{
 }
 main{
     grid-area: main;
-    background-color: aquamarine;
+    background-color: rgb(200, 199, 199);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -50,11 +55,33 @@ div{
     text-align: center;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    padding: 1em;
+    /* gap: 1em; */
+    padding: 0.5em;
+    /* border: solid 1px;
+    border-color: black; */
 
 }
 img{
     width: 250px;
     height: 280px;
+    background-color: white;
+}
+h4{
+    background-color: darkblue;
+    color: white;
+    width: 250px;
+    height: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+h3,p{
+    background-color: white;    
+    width: 250px;
+    height: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+img,h3,h4,p{
+    padding-left: 10px;
+    padding-right: 10px;
 }
